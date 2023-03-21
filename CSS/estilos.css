@@ -27,3 +27,8 @@ footer {
     color: #FFB84C;
 }
 
+.contenedor-css {
+    display: flex;
+    width: 100%;
+}
+
