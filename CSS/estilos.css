@@ -1,0 +1,29 @@
+#titulo {
+        background-color: #9E2F2F;
+    }
+
+#textos {
+        background-color: #9E2F2F;
+    }
+
+#nav-button {
+        background-color: #9E2F2F;
+    }
+
+body {
+        background-color: rgb(43, 40, 40);
+    }
+footer {
+    color: rgb(214, 202, 202);
+    
+}
+
+.foot {
+    text-decoration: none;
+    color: rgb(214, 202, 202);
+    }
+
+.foot:hover {
+    color: #FFB84C;
+}
+
