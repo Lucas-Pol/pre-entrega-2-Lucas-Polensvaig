@@ -6,10 +6,11 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="shortcut icon" href="./Img/PB_logo.png" type="image/x-icon">
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg" data-bs-theme="dark">
             <div class="container-fluid">
                 <div class="row navbar-brand">
                     <div class="col-2 ms-3">
@@ -56,7 +57,7 @@
         <section>
             <div class="row">
                 <div class="col-12">
-                    <div id="titulo" class="card mx-3 my-3">
+                    <div id="titulo" class="card mx-3 my-3 shadow-lg">
                         <div class="card-title text-center fs-1 text-uppercase fw-bold text-white">
                           Pinta el Barco
                         </div>
@@ -69,27 +70,34 @@
         </section>
         <section>
           <div class="container-fluid">
-                <div class="row d-flex contenedor-css">
-                    <div class="col-6">
-                        <div class="container-fluid">
-                            <div class="card mx-3 my-3">
-                                <img src="./Img/banda entera.jpg" class="card-img-top" alt="300px">
-                                <div id="textos" class="card-body">
-                                  <p class="card-text fw-bold text-center text-white">Pinta El Barco es una agrupación musical multi-género focalizada en la cumbia. Sin dejar de lado la
-                                    búsqueda de paisajes musicales sus letras invocan las problemáticas sociales actuales con un tinte
-                                    melódicamente tanguero. Con la mira puesta en el movimiento continuo del cuerpo, nos muestra la
-                                    versatilidad del espíritu fiestero y nos quita - por un rato - el sabor de la dolorosa cotidianidad.</p>
-                                </div>
-                            </div>    
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card mx-3 my-3">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2qqrOuID7sJqISK1VYKLYS?utm_source=generator" width="100%" height="600px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-3 shadow-lg" data-bs-theme="dark">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="./Img/banda entera.jpg" class="img-fluid rounded-start" alt="banda">
+                              </div>
+                              <div class="col-md-8">
+                                    <div class="card-body fs-5 text-white">
+                                        <p class="card-text fw-bold text-start text-white mt-5">Pinta El Barco es una agrupación musical multi-género focalizada en la cumbia. Sin dejar de lado la
+                                            búsqueda de paisajes musicales sus letras invocan las problemáticas sociales actuales con un tinte
+                                            melódicamente tanguero. Con la mira puesta en el movimiento continuo del cuerpo, nos muestra la
+                                            versatilidad del espíritu fiestero y nos quita - por un rato - el sabor de la dolorosa cotidianidad.</p>
+                                    </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
+            <div class="container-fluid">
+                <div class="col-12">
+                    <div class="card mb-3 my-3 textos2 shadow-lg">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2qqrOuID7sJqISK1VYKLYS?utm_source=generator" width="100%" height="400px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer class="container-fluid text-end">
